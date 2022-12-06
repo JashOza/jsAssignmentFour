@@ -1,0 +1,26 @@
+div{
+    background-color: grey;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+h1{
+    background-color: blue;
+    color: grey;
+}
+
+button{
+    border-radius: 20px;
+    font-size: 30px;
+    background-color: blue;
+    color: grey;
+}
+
+label{
+    font-size: 30px;
+}
+
+input{
+    font-size: 30px;
+}
