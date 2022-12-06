@@ -26,7 +26,7 @@ function displayData(json){
     console.log(json)
     let htmlTags ='';
     json.forEach((element) => {
-       html += `<div>Train-Number : ${element.train_num} 
+       htmlTags += `<div>Train-Number : ${element.train_num} 
        <div>Train-Name:${element.name}</div>
        <div>Originate : ${element.train_from}</div>
        <div>Terminate : ${element.train_to}<div>
