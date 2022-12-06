@@ -24,7 +24,7 @@ fetch(url, options)
 
 function displayData(json){
     console.log(json)
-    let html ='';
+    let htmlTags ='';
     json.forEach((element) => {
        html += `<div>Train-Number : ${element.train_num} 
        <div>Train-Name:${element.name}</div>
@@ -33,5 +33,5 @@ function displayData(json){
        <div>---------------------</div>
        </div>` 
     });
-    displayItems.innerHTML = html;
+    displayItems.innerHTML = htmlTags;
 }
